@@ -1,6 +1,6 @@
 .idea/
 *.pdb
-*/target
+*/target/
 */test-output/
 .settings/
 .project
