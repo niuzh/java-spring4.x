@@ -1,7 +1,7 @@
 .idea/
 *.pdb
-/target
-/test-output/
+*/target
+*/test-output/
 .settings/
 .project
 .classpath
