@@ -1,0 +1,12 @@
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/domain/package-info.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/web/package-info.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/domain/User.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/service/UserService.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/web/LoginController.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/dao/LoginLogDao.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/service/package-info.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/domain/LoginLog.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/command/package-info.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/dao/package-info.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/dao/UserDao.java
+/home/niu/workspace-masterSpring/spring4/chapter2/src/main/java/com/smart/chapter2/command/LoginCommand.java
