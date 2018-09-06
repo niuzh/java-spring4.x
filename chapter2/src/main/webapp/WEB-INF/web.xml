@@ -24,6 +24,9 @@
 	<!-- 请求截获后查找目标处理器,封装命令对象经过处理器调用业务bean处理后,返回结果视图 -->
 	<servlet-mapping>
 		<servlet-name>smart</servlet-name>
-		<url-pattern>*.html</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/</welcome-file>
+	</welcome-file-list>
 </web-app>

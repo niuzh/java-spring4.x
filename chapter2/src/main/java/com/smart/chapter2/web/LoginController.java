@@ -22,12 +22,26 @@ public class LoginController {
 	@Autowired
 	private UserService userService;
 
-	@RequestMapping("/index.html")
-	public ModelAndView loginPage() {
-		return new ModelAndView("login");
+	/**
+	 * 登陆页面
+	 * @return
+	 */
+	@RequestMapping(value = {"/index","/"})
+	public ModelAndView loginPage(HttpServletRequest request) {
+		if(request.getSession().getAttribute("user")==null) {
+			return new ModelAndView("login");
+		}else {
+			return new ModelAndView("main");
+		}
 	}
 
-	@RequestMapping(value = "/loginCheck.html")
+	/**
+	 * 登陆检查页面
+	 * @param request
+	 * @param loginCommand
+	 * @return
+	 */
+	@RequestMapping(value = "/loginCheck")
 	public ModelAndView loginCheck(HttpServletRequest request, LoginCommand loginCommand) {
 		boolean isValidUser = userService.hasMatchUser(loginCommand.getUserName(), loginCommand.getPassword());
 		if (!isValidUser) {
